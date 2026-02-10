@@ -1,3 +1,5 @@
+package proyectoRepositorioEva;
+
 public class Persona {
     
     // 1. ATRIBUTOS (Variables de instancia)
