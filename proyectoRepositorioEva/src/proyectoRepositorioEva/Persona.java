@@ -1,0 +1,35 @@
+package proyectoRepositorioEva;
+
+public class Persona {
+    
+    // 1. ATRIBUTOS (Variables de instancia)
+    // 'private' significa que solo se pueden acceder desde esta clase (encapsulamiento).
+    private String nombre;
+    private int edad;
+    //
+
+    // 2. CONSTRUCTOR
+    // Se ejecuta automáticamente al crear un objeto. Sirve para dar valores iniciales.
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
+    // 3. MÉTODOS (Comportamiento)
+    // Una acción que la persona puede realizar.
+    public void saludar() {
+        System.out.println("¡Hola! Soy " + this.nombre + " y tengo " + this.edad + " años.");
+    }
+
+    // Método para cumplir años (modifica un atributo)
+    public void cumplirAnios() {
+        this.edad++;
+        System.out.println(this.nombre + " ha cumplido años. Ahora tiene " + this.edad + ".");
+    }
+
+    // 4. GETTERS Y SETTERS
+    // Métodos para leer o modificar los atributos privados de forma segura.
+    public String getNombre() {
+        return nombre;
+    }
+}
