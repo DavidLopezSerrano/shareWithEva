@@ -3,9 +3,7 @@ package proyectoRepositorioEva;
 public class Main {
 
 	public static void main(String[] args) {
-
 System.out.println("fsdf");
-System.out.println("Porfavo pullea");
 	}
 
 }
