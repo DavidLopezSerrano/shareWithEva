@@ -6,6 +6,7 @@ public class Persona {
     // 'private' significa que solo se pueden acceder desde esta clase (encapsulamiento).
     private String nombre;
     private int edad;
+    
 
     // 2. CONSTRUCTOR
     // Se ejecuta automáticamente al crear un objeto. Sirve para dar valores iniciales.
